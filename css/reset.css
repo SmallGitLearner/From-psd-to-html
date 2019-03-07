@@ -1,0 +1,20 @@
+
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
+    margin:0;padding:0;font-family: Arial,sans-serif;}
+body{font-size:12px;}
+img{border:none;}
+ol,ul,li{
+    list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;color: #fff;}
+
+/*清空浮动*/
+.clearfix{zoom:1}
+.clearfix:after{
+    content:""; /*内容为空*/
+    display:block;/*块级属性*/
+    clear:both;  /*清除浮动*/
+    visibility: hidden;   /*不可见*/
+    height: 0;    /*高度为0*/
+}
